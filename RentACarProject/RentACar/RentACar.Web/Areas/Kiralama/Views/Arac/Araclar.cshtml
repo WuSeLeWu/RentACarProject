@@ -1,0 +1,38 @@
+﻿@using RentACar.Web.Code;
+@{
+    ViewData["Title"] = "Araçlar";
+}
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<div class="container">
+    <h2 class=" text-black my-4">Rent A Car Araçları</h2>
+
+    <nav class="navbar text-light mb-3" style="background-color:#000000;">
+        <div class="container-fluid">
+            <div class="form-group col-md-4 d-flex">
+                <label class="form-label col-md-4" for="aracSehir">Şehir Seçiniz :</label>
+                <select class="form-select col-md" id="aracSehir">
+                </select>
+            </div>
+            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                <div class="input-group  ml-n2">
+                    <input type="text"
+                           id="arama"
+                           class="form-control bg-white text-black border-0 small"
+                           placeholder="Araçlar İçerisinde Arayın..."
+                           aria-label="Search"
+                           aria-describedby="basic-addon2" />
+                </div>
+            </form>
+        </div>
+    </nav>
+</div>
+
+<div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4 px-1" id="araclarAnaSayfa">
+    </div>
+</div>
+
+<script src="~/js/admin/arac.js"></script>
+
+

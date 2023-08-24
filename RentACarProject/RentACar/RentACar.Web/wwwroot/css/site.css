@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Philosopher', sans-serif !important;
+}
+.carlogo {
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.padding-hf{
+    padding-right:5.5rem !important;
+    padding-left:5.5rem !important;
+}
+
+.slide-h {
+    height: calc(90vh - 82px) !important;
+}
+
+.zindex{
+    z-index:99;
+}
+
+.ifframe {
+    max-width: 100%; /* Yerleþtiði alan kadar geniþlik */
+    margin: 0 auto; /* Sayfayý ortala */
+    width:100vw;
+    height:100vh;
+
+}
+
+html::-webkit-scrollbar {
+    width: 0.8rem !important;
+    background-color: white !important;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color:black;
+    border-radius: 3rem !important;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}

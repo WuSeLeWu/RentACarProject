@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RentACar.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RentACar.Web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\css\\Admin\\AdminLayout.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\AdminLayout.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\css\\Admin\\AdminPanel.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\AdminPanel.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\css\\Admin\\sb-admin-2.min.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\sb-admin-2.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\css\\lokasyon.css",
+      "PackagePath": "staticwebassets\\css\\lokasyon.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\citroenc3.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\citroenc3.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\citroencelysee.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\citroencelysee.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\fiatdoblo.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\fiatdoblo.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\fiategea.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\fiategea.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\fiatlinea.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\fiatlinea.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\fordfiesta.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\fordfiesta.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\fordfocus.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\fordfocus.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\fordkuga.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\fordkuga.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\hyundaiaccentblue.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\hyundaiaccentblue.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\nissanjuke.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\nissanjuke.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\nissanmicra.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\nissanmicra.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\nissanqashqai.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\nissanqashqai.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\renaultclio.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\renaultclio.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\renaultmegane.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\renaultmegane.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\toyotacorolla.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\toyotacorolla.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\toyotarav4.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\toyotarav4.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\toyotayaris.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\toyotayaris.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\volkswagenpassat.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\volkswagenpassat.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\volvov90.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\volvov90.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\volvoxc40.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\volvoxc40.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\AracFotolari\\volvoxc60.png",
+      "PackagePath": "staticwebassets\\img\\AracFotolari\\volvoxc60.png"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\logocar.jpg",
+      "PackagePath": "staticwebassets\\img\\logocar.jpg"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\img\\slider1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider1.jpg"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\Kullanici.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\Kullanici.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\Sidebar.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\Sidebar.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\Sube.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\Sube.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\arac.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\arac.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\Admin\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\iletisim.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\iletisim.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\kullaniciUyeOl.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\kullaniciUyeOl.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\Admin\\rol.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\rol.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Masaüstü\\ProjeDosya\\RentACar_Yeni - Deneme\\RentACar\\RentACar.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RentACar.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RentACar.Web.props",
+      "PackagePath": "build\\RentACar.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RentACar.Web.props",
+      "PackagePath": "buildMultiTargeting\\RentACar.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RentACar.Web.props",
+      "PackagePath": "buildTransitive\\RentACar.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,392 @@
+2023-08-08 15:13:28.1760||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 15:13:28.2051||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 15:13:28.2069||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 15:13:28.2069||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 15:13:28.2069||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 15:13:28.7674||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 15:13:28.9550||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 188.5442ms 
+2023-08-08 15:13:28.9831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 15:13:28.9914||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.2647ms 
+2023-08-08 15:13:29.0080||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 15:13:29.0514||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4619ms 
+2023-08-08 15:13:29.1046||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 15:13:29.1694||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.7847ms 
+2023-08-08 15:18:19.4664||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 197 
+2023-08-08 15:18:19.4731||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:18:19.4731||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UyeOl", controller = "Kullanici"}. Executing controller action with signature System.Object UyeOl(System.Object) on controller RentACar.Api.Controllers.KullaniciController (RentACar.Api). 
+2023-08-08 15:18:20.1332||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:18:20.1332||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:18:21.0857||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[@__item_Ad_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[DogumTarih], [t].[EhliyetAlimTarih], [t].[EmailOnay], [t].[EmailOnayTarih], [t].[GuncellemeTarih], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[Soyad], [t].[TcKimlikNo], [t].[TelNo]
+FROM [tblKullanici] AS [t]
+WHERE [t].[Ad] = @__item_Ad_0 
+2023-08-08 15:18:49.0728||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 15:18:49.1010||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 15:18:49.1010||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 15:18:49.1010||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 15:18:49.1010||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 15:18:49.5629||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 15:18:49.7511||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 189.1919ms 
+2023-08-08 15:18:49.8090||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 15:18:49.8090||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 15:18:49.8157||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.5699ms 
+2023-08-08 15:18:49.8505||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.4555ms 
+2023-08-08 15:18:49.9037||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 15:18:49.9828||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.1230ms 
+2023-08-08 15:20:10.1146||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 198 
+2023-08-08 15:20:10.1146||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:20:10.1312||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UyeOl", controller = "Kullanici"}. Executing controller action with signature System.Object UyeOl(System.Object) on controller RentACar.Api.Controllers.KullaniciController (RentACar.Api). 
+2023-08-08 15:20:10.5517||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:20:10.5517||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:20:11.1075||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__item_Ad_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[DogumTarih], [t].[EhliyetAlimTarih], [t].[EmailOnay], [t].[EmailOnayTarih], [t].[GuncellemeTarih], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[Soyad], [t].[TcKimlikNo], [t].[TelNo]
+FROM [tblKullanici] AS [t]
+WHERE [t].[Ad] = @__item_Ad_0 
+2023-08-08 15:20:24.3644||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api) in 14230.8268ms 
+2023-08-08 15:20:24.3644||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:20:24.3644||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. FluentValidation.ValidationException: Validation failed: 
+ -- Ad: Hatalı email adresi Severity: Error
+   at FluentValidation.AbstractValidator`1.RaiseValidationException(ValidationContext`1 context, ValidationResult result) in /_/src/FluentValidation/AbstractValidator.cs:line 516
+   at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 255
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 202
+   at FluentValidation.AbstractValidator`1.FluentValidation.IValidator.Validate(IValidationContext context) in /_/src/FluentValidation/AbstractValidator.cs:line 153
+   at FluentValidation.DefaultValidatorExtensions.Validate[T](IValidator`1 validator, T instance, Action`1 options) in /_/src/FluentValidation/DefaultValidatorExtensions_Validate.cs:line 38
+   at FluentValidation.DefaultValidatorExtensions.ValidateAndThrow[T](IValidator`1 validator, T instance) in /_/src/FluentValidation/DefaultValidatorExtensions_Validate.cs:line 59
+   at RentACar.Api.Controllers.KullaniciController.UyeOl(Object model) in D:\Masaüstü\RentACar\RentACar\RentACar.Api\Controllers\KullaniciController.cs:line 99
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-08-08 15:20:24.4032||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.ErrorController.HandleErrorDevelopment (RentACar.Api)' 
+2023-08-08 15:20:24.4032||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HandleErrorDevelopment", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleErrorDevelopment(Microsoft.Extensions.Hosting.IHostEnvironment) on controller RentACar.Api.Controllers.ErrorController (RentACar.Api). 
+2023-08-08 15:20:24.4092||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2023-08-08 15:20:24.4092||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.ErrorController.HandleErrorDevelopment (RentACar.Api) in 5.9316ms 
+2023-08-08 15:20:24.4092||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.ErrorController.HandleErrorDevelopment (RentACar.Api)' 
+2023-08-08 15:20:24.4092||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 198 - 500 - application/problem+json;+charset=utf-8 14303.6541ms 
+2023-08-08 15:20:57.7911||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 198 
+2023-08-08 15:20:57.7911||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:20:57.7911||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UyeOl", controller = "Kullanici"}. Executing controller action with signature System.Object UyeOl(System.Object) on controller RentACar.Api.Controllers.KullaniciController (RentACar.Api). 
+2023-08-08 15:20:57.8085||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__item_Ad_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[DogumTarih], [t].[EhliyetAlimTarih], [t].[EmailOnay], [t].[EmailOnayTarih], [t].[GuncellemeTarih], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[Soyad], [t].[TcKimlikNo], [t].[TelNo]
+FROM [tblKullanici] AS [t]
+WHERE [t].[Ad] = @__item_Ad_0 
+2023-08-08 15:21:06.4654||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 15:21:06.4945||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 15:21:06.4945||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 15:21:06.4945||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 15:21:06.4945||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 15:21:06.7975||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 15:21:06.9701||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 173.5042ms 
+2023-08-08 15:21:07.0354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 15:21:07.0354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 15:21:07.0354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.7317ms 
+2023-08-08 15:21:07.0660||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.5164ms 
+2023-08-08 15:21:07.1125||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 15:21:07.1797||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.1596ms 
+2023-08-08 15:21:16.7558||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 198 
+2023-08-08 15:21:16.7558||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:21:16.7701||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UyeOl", controller = "Kullanici"}. Executing controller action with signature System.Object UyeOl(System.Object) on controller RentACar.Api.Controllers.KullaniciController (RentACar.Api). 
+2023-08-08 15:21:17.2038||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:21:17.2038||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:21:17.7687||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__item_Ad_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[DogumTarih], [t].[EhliyetAlimTarih], [t].[EmailOnay], [t].[EmailOnayTarih], [t].[GuncellemeTarih], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[Soyad], [t].[TcKimlikNo], [t].[TelNo]
+FROM [tblKullanici] AS [t]
+WHERE [t].[Ad] = @__item_Ad_0 
+2023-08-08 15:21:17.9164||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = Boolean), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = DateTime2), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Int32), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [tblKullanici] ([Ad], [AdresId], [AktifMi], [DogumTarih], [EhliyetAlimTarih], [EmailOnay], [EmailOnayTarih], [GuncellemeTarih], [KayitTarih], [MailAdress], [Parola], [RolId], [Soyad], [TcKimlikNo], [TelNo])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14); 
+2023-08-08 15:21:17.9349||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 15:21:17.9401||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api) in 1167.7563ms 
+2023-08-08 15:21:17.9401||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:21:17.9401||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 198 - 200 - application/json;+charset=utf-8 1189.8020ms 
+2023-08-08 15:27:14.8081||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 15:27:14.8340||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 15:27:14.8340||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 15:27:14.8340||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 15:27:14.8340||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 15:27:15.1308||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 15:27:15.3262||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 196.6301ms 
+2023-08-08 15:27:15.3947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 15:27:15.3947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 15:27:15.3947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.2670ms 
+2023-08-08 15:27:15.4464||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.6174ms 
+2023-08-08 15:27:15.5027||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 15:27:15.5634||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.7555ms 
+2023-08-08 15:30:08.9757||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 195 
+2023-08-08 15:30:08.9757||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:30:08.9918||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UyeOl", controller = "Kullanici"}. Executing controller action with signature System.Object UyeOl(System.Object) on controller RentACar.Api.Controllers.KullaniciController (RentACar.Api). 
+2023-08-08 15:30:09.4259||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:30:09.4259||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:30:09.9871||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (24ms) [Parameters=[@__item_Ad_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[DogumTarih], [t].[EhliyetAlimTarih], [t].[EmailOnay], [t].[EmailOnayTarih], [t].[GuncellemeTarih], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[Soyad], [t].[TcKimlikNo], [t].[TelNo]
+FROM [tblKullanici] AS [t]
+WHERE [t].[Ad] = @__item_Ad_0 
+2023-08-08 15:30:10.1459||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = Boolean), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [tblKullanici] ([Ad], [AdresId], [AktifMi], [DogumTarih], [EhliyetAlimTarih], [EmailOnay], [EmailOnayTarih], [GuncellemeTarih], [MailAdress], [Parola], [RolId], [Soyad], [TcKimlikNo], [TelNo])
+OUTPUT INSERTED.[Id], INSERTED.[KayitTarih]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13); 
+2023-08-08 15:30:10.1670||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 15:30:10.1670||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api) in 1178.3597ms 
+2023-08-08 15:30:10.1670||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.KullaniciController.UyeOl (RentACar.Api)' 
+2023-08-08 15:30:10.1781||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7131/api/Kullanici/UyeOl application/json 195 - 200 - application/json;+charset=utf-8 1202.3753ms 
+2023-08-08 15:48:07.6206||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 15:48:07.7560||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 15:48:07.7560||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 15:48:07.7560||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 15:48:07.7560||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 15:48:07.7560||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 15:48:08.4036||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 15:48:08.9205||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 517.8603ms 
+2023-08-08 15:48:08.9626||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 15:48:08.9626||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 15:48:08.9626||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.9953ms 
+2023-08-08 15:48:08.9888||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1822ms 
+2023-08-08 15:48:09.0354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 15:48:09.0926||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.1809ms 
+2023-08-08 15:48:16.1420||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Kullanici/RoleGoreKullaniciGetir/1 - - 
+2023-08-08 15:48:16.1500||INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2023-08-08 15:48:16.1500||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2023-08-08 15:48:16.1500||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Kullanici/RoleGoreKullaniciGetir/1 - - - 401 0 - 10.8664ms 
+2023-08-08 15:49:19.3987||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Auth/Login application/json 39 
+2023-08-08 15:49:19.4349||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.AuthController.Login (RentACar.Api)' 
+2023-08-08 15:49:19.4448||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller RentACar.Api.Controllers.AuthController (RentACar.Api). 
+2023-08-08 15:49:19.8758||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:49:19.8758||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 15:49:20.4138||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[@__ad_0='?' (Size = 4000), @__parola_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[DogumTarih], [t].[EhliyetAlimTarih], [t].[EmailOnay], [t].[EmailOnayTarih], [t].[GuncellemeTarih], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[Soyad], [t].[TcKimlikNo], [t].[TelNo]
+FROM [tblKullanici] AS [t]
+WHERE [t].[Ad] = @__ad_0 AND [t].[Parola] = @__parola_1 
+2023-08-08 15:49:20.4354||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__item_RolId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t]
+WHERE [t].[Id] = @__item_RolId_0 
+2023-08-08 15:49:20.6222||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 15:49:20.6281||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.AuthController.Login (RentACar.Api) in 1180.5965ms 
+2023-08-08 15:49:20.6281||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.AuthController.Login (RentACar.Api)' 
+2023-08-08 15:49:20.6281||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7131/api/Auth/Login application/json 39 - 200 - application/json;+charset=utf-8 1235.3605ms 
+2023-08-08 15:49:29.6172||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Kullanici/RoleGoreKullaniciGetir/1 - - 
+2023-08-08 15:49:29.6172||INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2023-08-08 15:49:29.6172||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2023-08-08 15:49:29.6172||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Kullanici/RoleGoreKullaniciGetir/1 - - - 401 0 - 3.0318ms 
+2023-08-08 19:55:14.2043||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 19:55:14.3434||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 19:55:14.3434||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 19:55:14.3434||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 19:55:14.3434||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 19:55:14.3454||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 19:55:14.8998||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 19:55:15.1077||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 208.8203ms 
+2023-08-08 19:55:15.1591||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 19:55:15.1591||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 19:55:15.1591||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.8295ms 
+2023-08-08 19:55:15.1884||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.2910ms 
+2023-08-08 19:55:15.2329||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 19:55:15.2868||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.8960ms 
+2023-08-08 19:55:21.6924||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-08 19:55:21.6924||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 19:55:21.6924||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-08 19:55:22.1377||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 19:55:22.1377||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 19:55:22.5877||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (46ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-08 19:55:22.6025||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 19:55:22.6215||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 915.7156ms 
+2023-08-08 19:55:22.6215||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 19:55:22.6266||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller - - - 200 - application/json;+charset=utf-8 934.1622ms 
+2023-08-08 20:00:48.4662||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 20:00:48.5997||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 20:00:48.5997||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 20:00:48.5997||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 20:00:48.5997||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 20:00:48.5997||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 20:00:49.2248||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 20:00:49.4287||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 204.8593ms 
+2023-08-08 20:00:49.4929||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 20:00:49.4929||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 20:00:49.5024||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.1604ms 
+2023-08-08 20:00:49.5217||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.8409ms 
+2023-08-08 20:00:49.5652||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 20:00:49.6228||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.7300ms 
+2023-08-08 20:02:36.5495||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 20:02:36.6891||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 20:02:36.6891||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 20:02:36.6891||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 20:02:36.6891||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 20:02:36.6891||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 20:02:37.3002||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 20:02:37.4974||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 198.0743ms 
+2023-08-08 20:02:37.5547||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 20:02:37.5547||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 20:02:37.5656||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 10.7295ms 
+2023-08-08 20:02:37.5862||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.4222ms 
+2023-08-08 20:02:37.6289||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 20:02:37.6859||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.0453ms 
+2023-08-08 20:07:58.5720||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 20:07:58.7117||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 20:07:58.7117||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 20:07:58.7117||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 20:07:58.7205||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 20:07:58.7205||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 20:07:58.9452||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 20:07:59.1645||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 220.2511ms 
+2023-08-08 20:07:59.2472||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 20:07:59.2472||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 20:07:59.2564||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.6079ms 
+2023-08-08 20:07:59.2788||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.5786ms 
+2023-08-08 20:07:59.3483||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 20:07:59.4182||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.8803ms 
+2023-08-08 20:09:44.8225||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 20:09:44.9591||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 20:09:44.9591||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 20:09:44.9591||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 20:09:44.9591||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 20:09:44.9591||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 20:09:45.5202||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 20:09:45.7177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 198.5720ms 
+2023-08-08 20:09:45.7831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 20:09:45.7831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 20:09:45.7831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 10.2294ms 
+2023-08-08 20:09:45.8136||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.5227ms 
+2023-08-08 20:09:45.8590||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 20:09:45.9173||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 58.4080ms 
+2023-08-08 20:10:00.4120||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-08 20:10:00.4120||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:10:00.4120||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 6.8408ms 
+2023-08-08 20:10:00.4120||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-08 20:10:00.4120||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:10:00.4236||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:10:00.4236||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-08 20:10:00.8582||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 20:10:00.8582||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 20:10:01.2745||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-08 20:10:01.2897||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 20:10:01.3085||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 875.5301ms 
+2023-08-08 20:10:01.3085||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:10:01.3147||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 893.7282ms 
+2023-08-08 20:13:20.5396||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 20:13:20.7052||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 20:13:20.7052||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 20:13:20.7052||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 20:13:20.7052||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 20:13:20.7052||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 20:13:21.0863||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 20:13:21.3067||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 221.3838ms 
+2023-08-08 20:13:21.3702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 20:13:21.3702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 20:13:21.3788||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.4969ms 
+2023-08-08 20:13:21.4006||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4217ms 
+2023-08-08 20:13:21.4443||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 20:13:21.5042||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 59.7973ms 
+2023-08-08 20:13:36.5895||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-08 20:13:36.5947||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:36.5947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 6.1407ms 
+2023-08-08 20:13:36.5947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-08 20:13:36.5947||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:36.5947||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:13:36.5947||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-08 20:13:37.0357||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 20:13:37.0357||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 20:13:37.4482||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-08 20:13:37.4628||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 20:13:37.4806||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 871.7343ms 
+2023-08-08 20:13:37.4806||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:13:37.4862||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 888.6714ms 
+2023-08-08 20:13:47.7873||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/Kaydet - - 
+2023-08-08 20:13:47.7873||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:47.7873||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/Kaydet - - - 204 - - 1.1443ms 
+2023-08-08 20:13:47.7873||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Rol/Kaydet application/json;+charset=UTF-8 22 
+2023-08-08 20:13:47.7873||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:47.7873||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.Kaydet (RentACar.Api)' 
+2023-08-08 20:13:47.7873||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Kaydet", controller = "Rol"}. Executing controller action with signature System.Object Kaydet(System.Object) on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-08 20:13:47.9972||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [tblRol] ([Ad])
+OUTPUT INSERTED.[Id]
+VALUES (@p0); 
+2023-08-08 20:13:48.0099||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 20:13:48.0099||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.Kaydet (RentACar.Api) in 214.5152ms 
+2023-08-08 20:13:48.0099||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.Kaydet (RentACar.Api)' 
+2023-08-08 20:13:48.0099||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7131/api/Rol/Kaydet application/json;+charset=UTF-8 22 - 200 - application/json;+charset=utf-8 221.3493ms 
+2023-08-08 20:13:48.0211||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-08 20:13:48.0211||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:48.0211||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 0.4267ms 
+2023-08-08 20:13:48.0211||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-08 20:13:48.0211||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:48.0211||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:13:48.0211||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-08 20:13:48.0631||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-08 20:13:48.0634||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 20:13:48.0634||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 39.7742ms 
+2023-08-08 20:13:48.0634||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:13:48.0634||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 40.8608ms 
+2023-08-08 20:13:51.8842||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/Sil?id=7 - - 
+2023-08-08 20:13:51.8842||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:51.8842||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/Sil?id=7 - - - 204 - - 0.5838ms 
+2023-08-08 20:13:51.8842||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:7131/api/Rol/Sil?id=7 application/json;+charset=utf-8 - 
+2023-08-08 20:13:51.8842||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:13:51.8842||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.Sil (RentACar.Api)' 
+2023-08-08 20:13:51.8842||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Sil", controller = "Rol"}. Executing controller action with signature System.Object Sil(Int32) on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-08 20:13:51.8943||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2023-08-08 20:13:51.8943||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.Sil (RentACar.Api) in 7.6905ms 
+2023-08-08 20:13:51.8943||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.Sil (RentACar.Api)' 
+2023-08-08 20:13:51.8943||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:7131/api/Rol/Sil?id=7 application/json;+charset=utf-8 - - 400 - application/problem+json;+charset=utf-8 10.0876ms 
+2023-08-08 20:14:13.7635||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/Sil?id=7 - - 
+2023-08-08 20:14:13.7635||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2023-08-08 20:14:13.7635||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2023-08-08 20:14:13.7635||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/Sil?id=7 - - - 405 0 - 1.5490ms 
+2023-08-08 20:21:26.8014||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-08 20:21:26.9654||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-08 20:21:26.9654||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-08 20:21:26.9654||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-08 20:21:26.9654||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-08 20:21:26.9704||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-08 20:21:27.2669||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-08 20:21:27.4808||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 215.0123ms 
+2023-08-08 20:21:27.5385||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-08 20:21:27.5385||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-08 20:21:27.5480||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.4250ms 
+2023-08-08 20:21:27.5689||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.3808ms 
+2023-08-08 20:21:27.6129||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-08 20:21:27.6704||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.4205ms 
+2023-08-08 20:21:48.9169||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-08 20:21:48.9169||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:21:48.9169||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 5.7016ms 
+2023-08-08 20:21:48.9250||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-08 20:21:48.9250||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-08 20:21:48.9250||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:21:48.9250||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-08 20:21:49.3639||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 20:21:49.3639||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-08 20:21:49.7806||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-08 20:21:49.7954||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-08 20:21:49.8144||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 878.1263ms 
+2023-08-08 20:21:49.8144||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-08 20:21:49.8144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 894.8255ms 

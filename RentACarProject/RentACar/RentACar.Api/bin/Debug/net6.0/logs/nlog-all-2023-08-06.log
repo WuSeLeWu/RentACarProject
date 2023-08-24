@@ -1,0 +1,77 @@
+2023-08-06 15:27:45.7619||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-06 15:27:45.8036||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-06 15:27:45.8036||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-06 15:27:45.8036||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-06 15:27:45.8036||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api\ 
+2023-08-06 15:27:46.0736||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-06 15:27:46.3556||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 284.1380ms 
+2023-08-06 15:27:46.3735||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-06 15:27:46.3770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.5715ms 
+2023-08-06 15:27:46.4003||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-06 15:27:46.4605||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.2039ms 
+2023-08-06 15:27:46.5083||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-06 15:27:46.5785||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.2421ms 
+2023-08-06 15:28:34.4954||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7131/api/Kullanici/Getir application/json 39 
+2023-08-06 15:28:34.5016||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.KullaniciController.Getir (RentACar.Api)' 
+2023-08-06 15:28:34.5249||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Getir", controller = "Kullanici"}. Executing controller action with signature System.Object Getir(System.Object) on controller RentACar.Api.Controllers.KullaniciController (RentACar.Api). 
+2023-08-06 15:28:35.4799||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-06 15:28:35.4799||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-06 15:28:36.8653||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (77ms) [Parameters=[@__ad_0='?' (Size = 4000), @__parola_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[DogumTarih], [t].[EhliyetAlimTarih], [t].[EmailOnay], [t].[EmailOnayTarih], [t].[GuncellemeTarih], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[Soyad], [t].[TcKimlikNo], [t].[TelNo]
+FROM [tblKullanici] AS [t]
+WHERE [t].[Ad] = @__ad_0 AND [t].[Parola] = @__parola_1 
+2023-08-06 15:28:36.9007||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RentACar.Model.Kullanici, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-06 15:28:36.9176||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.KullaniciController.Getir (RentACar.Api) in 2389.1331ms 
+2023-08-06 15:28:36.9176||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.KullaniciController.Getir (RentACar.Api)' 
+2023-08-06 15:28:36.9298||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7131/api/Kullanici/Getir application/json 39 - 200 - application/json;+charset=utf-8 2434.3265ms 
+2023-08-06 15:28:57.9058||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Sube/IlIçersindekiSubeler/19 - - 
+2023-08-06 15:28:57.9058||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.SubeController.SubeleriGetir (RentACar.Api)' 
+2023-08-06 15:28:57.9058||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SubeleriGetir", controller = "Sube"}. Executing controller action with signature System.Object SubeleriGetir(Int32) on controller RentACar.Api.Controllers.SubeController (RentACar.Api). 
+2023-08-06 15:28:58.0070||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@__ilid_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[MailAdress], [t].[RolId], [t].[TelNo]
+FROM [tblSube] AS [t]
+INNER JOIN [tblAdres] AS [t0] ON [t].[AdresId] = [t0].[Id]
+INNER JOIN [tblBina] AS [t1] ON [t0].[BinaId] = [t1].[Id]
+INNER JOIN [tblMahalle] AS [t2] ON [t1].[MahalleId] = [t2].[Id]
+INNER JOIN [tblIce] AS [t3] ON [t2].[IlceId] = [t3].[Id]
+INNER JOIN [tblSehir] AS [t4] ON [t3].[SehirId] = [t4].[Id]
+WHERE [t4].[Id] = @__ilid_0 
+2023-08-06 15:28:58.0521||ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'RentACar.Repository.RepositoryContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at lambda_method29(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext() System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at lambda_method29(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2023-08-06 15:48:45.0071||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-06 15:48:45.0484||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-06 15:48:45.0519||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-06 15:48:45.0519||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-06 15:48:45.0519||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api\ 
+2023-08-06 15:48:45.5104||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-06 15:48:45.7807||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 273.0814ms 
+2023-08-06 15:48:45.7993||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-06 15:48:45.7993||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.2711ms 
+2023-08-06 15:48:45.8232||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-06 15:48:45.8913||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.1159ms 
+2023-08-06 15:48:45.9468||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-06 15:48:46.0289||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.0984ms 
+2023-08-06 15:48:52.3917||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Sube/IlIçersindekiSubeler/19 - - 
+2023-08-06 15:48:52.3953||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.SubeController.SubeleriGetir (RentACar.Api)' 
+2023-08-06 15:48:52.4220||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SubeleriGetir", controller = "Sube"}. Executing controller action with signature System.Object SubeleriGetir(Int32) on controller RentACar.Api.Controllers.SubeController (RentACar.Api). 
+2023-08-06 15:48:53.5486||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-06 15:48:53.5486||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-06 15:48:55.0041||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (82ms) [Parameters=[@__ilid_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad], [t].[AdresId], [t].[AktifMi], [t].[MailAdress], [t].[RolId], [t].[TelNo]
+FROM [tblSube] AS [t]
+INNER JOIN [tblAdres] AS [t0] ON [t].[AdresId] = [t0].[Id]
+INNER JOIN [tblBina] AS [t1] ON [t0].[BinaId] = [t1].[Id]
+INNER JOIN [tblMahalle] AS [t2] ON [t1].[MahalleId] = [t2].[Id]
+INNER JOIN [tblIce] AS [t3] ON [t2].[IlceId] = [t3].[Id]
+INNER JOIN [tblSehir] AS [t4] ON [t3].[SehirId] = [t4].[Id]
+WHERE [t4].[Id] = @__ilid_0 
+2023-08-06 15:48:55.0373||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Sube, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-06 15:48:55.0373||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.SubeController.SubeleriGetir (RentACar.Api) in 2621.7148ms 
+2023-08-06 15:48:55.0373||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.SubeController.SubeleriGetir (RentACar.Api)' 
+2023-08-06 15:48:55.0604||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Sube/IlIçersindekiSubeler/19 - - - 200 - application/json;+charset=utf-8 2668.6393ms 

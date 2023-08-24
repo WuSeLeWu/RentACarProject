@@ -1,0 +1,136 @@
+﻿@{
+    ViewData["Title"] = "UyeOl";
+}
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<section class="h-100 bg-black">
+    <div class="container py-2 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+                <div class="card card-registration my-4">
+                    <div class="row g-0">
+                        <div class="col-xl-6 d-none d-xl-block">
+                            <img src="https://i.pinimg.com/736x/2e/96/65/2e96651aa1d65a128847b36e06b27c01.jpg"
+                                 alt="Sample photo" class="img-fluid"
+                                 style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;max-width:70vh" />
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="card-body p-md-5 text-black">
+                                <h3 class="mb-5 text-uppercase">Rent A CAR ÜYELİK FORMU</h3>
+
+                                <form class="row g-3 needs-validation" id="kullaniciEkleForm" novalidate>
+
+                                    <div class="col-md-6">
+                                        <label for="kad" class="form-label">Adınızı Giriniz  :</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               id="kad"
+                                               required />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="ksoyad" class="form-label">Soyadınızı Giriniz  :</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               id="ksoyad"
+                                               required />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label class="form-label" for="sehirAd">Şehir Seçiniz :</label>
+                                        <select class="form-select" id="sehirAd">
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label for="kparola" class="form-label">Parolanızı Giriniz :</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               id="kparola"
+                                               required />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="ktelNo" class="form-label">Telefon Numaranızı Giriniz :</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               id="ktelNo"
+                                               required />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="ktcNo" class="form-label">Tc Kimlik Numaranızı Giriniz :</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               id="ktcNo"
+                                               required />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="kmailAdress" class="form-label">Mail Adresinizi  Giriniz :</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               id="kmailAdress"
+                                               required />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="kdogumTarih" class="form-label">Doğum Tarihinizi Giriniz :</label>
+
+                                        <input type="datetime-local"
+                                               id="kdogumTarih"
+                                               name="trip-start"
+                                               class="form-control" />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="kehliyetTarih" class="form-label">Ehliyet Alım Tarihinizi Giriniz :</label>
+
+                                        <input type="datetime-local"
+                                               id="kehliyetTarih"
+                                               name="trip-start"
+                                               class="form-control" />
+                                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label class="form-label">Adres Bilgilerini Giriniz :</label>
+                                        <textarea class="form-control" id="kacikAdres"></textarea>
+                                    </div>
+
+                                    <button class="btn btn-primary mt-5" type="submit" onclick="KullaniciUyeOl()">Kaydet</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    (() => {
+        "use strict";
+
+        const forms = document.querySelectorAll(".needs-validation");
+        Array.from(forms).forEach((form) => {
+            form.addEventListener(
+                "submit",
+                (event) => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+
+                    form.classList.add("was-validated");
+                },
+                false
+            );
+        });
+    })();
+</script>
+
+<script src="~/js/admin/kullaniciuyeol.js"></script>

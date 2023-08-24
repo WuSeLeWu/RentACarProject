@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RentACar.Web
+build_property.RootNamespace = RentACar.Web
+build_property.ProjectDir = D:\Masaüstü\ProjeDosya\RentACar_Yeni - Deneme\RentACar\RentACar.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Masaüstü\ProjeDosya\RentACar_Yeni - Deneme\RentACar\RentACar.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Admin/Views/Home/Arac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxBcmFjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Admin/Views/Home/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbGV0aXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Admin/Views/Home/Kullanici.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxLdWxsYW5pY2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Admin/Views/Home/Rol.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxSb2wuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Admin/Views/Home/Sube.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxTdWJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Kiralama/Views/Arac/Araclar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS2lyYWxhbWFcVmlld3NcQXJhY1xBcmFjbGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Kiralama/Views/Arac/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS2lyYWxhbWFcVmlld3NcQXJhY1xEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Areas/Kiralama/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS2lyYWxhbWFcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Account/LoginSube.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblN1YmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Home/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbGV0aXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Home/UyeOl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVeWVPbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-whr6h4a03e
+
+[D:/Masaüstü/ProjeDosya/RentACar_Yeni - Deneme/RentACar/RentACar.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ir31k2e0sg

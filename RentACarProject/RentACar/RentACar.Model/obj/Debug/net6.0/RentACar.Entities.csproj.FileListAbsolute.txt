@@ -1,0 +1,12 @@
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\bin\Debug\net6.0\RentACar.Entities.deps.json
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\bin\Debug\net6.0\RentACar.Entities.dll
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\bin\Debug\net6.0\RentACar.Entities.pdb
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\RentACar.Entities.csproj.AssemblyReference.cache
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\RentACar.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\RentACar.Entities.AssemblyInfoInputs.cache
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\RentACar.Entities.AssemblyInfo.cs
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\RentACar.Entities.csproj.CoreCompileInputs.cache
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\RentACar.Entities.dll
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\refint\RentACar.Entities.dll
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\RentACar.Entities.pdb
+D:\Masaüstü\RentACar\RentACar\RentACar.Model\obj\Debug\net6.0\ref\RentACar.Entities.dll

@@ -1,0 +1,192 @@
+﻿@{
+    string vitesTipi = (bool)ViewBag.Arac.vitesTip ? "Manuel" : "Otomatik";
+}
+
+<div class="container my-5">
+
+    <h3>RENT A CAR : @ViewBag.Arac.markaAd @ViewBag.Arac.modelAd</h3>
+
+    <div class="row row-cols-sm-1 row-cols-md-2 g-3">
+        <img style="max-width: 40rem;align-items:center;"
+             class="col h-100 d-flex justify-content-center py-5"
+             src="/img/aracfotolari/@ViewBag.Arac.foto"
+             alt="araçResmi" />
+        <div class="col">
+            <div class="card h-100" style="max-width: 40rem">
+                <h2 class="card-title d-flex justify-content-center py-3">
+                    @ViewBag.Arac.markaAd @ViewBag.Arac.modelAd
+                </h2>
+                <p class="px-3">
+                    Aracı teslim alabilmeniz için yanınızda kimliğiniz, ehliyetiniz ve üzerinde adınız, soyadınız ile kart numaranızın yazdığı bir kredi kartı bulunmalıdır.
+                </p>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 btn btn-warning">
+                            <h5>@ViewBag.Arac.fiyat ₺ / Gün</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex flex-wrap">
+                    <div class="col">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item row-cols-sm-1">
+                                <i class="bi bi-controller text-primary"></i>
+                                <strong>Vites Tipi :</strong>
+                                @vitesTipi
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-person-plus text-primary"></i>
+                                <strong>Koltuk Sayısı :</strong> @ViewBag.Arac.koltukSayi
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="bi bi-speedometer text-primary"></i>
+                                <strong>Kilometre Sınırı :</strong> @ViewBag.Arac.kmSinir KM
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-ev-front text-primary"></i>
+                                <strong>Yakıt Tipi :</strong> @ViewBag.Arac.yakitTipAd
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="bi bi-shop text-primary"></i>
+                                <strong>Şube Adı :</strong> @ViewBag.Arac.subeAd
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="bi bi-tag text-primary"></i>
+                                <strong>Depozito Ücreti :</strong> @ViewBag.Arac.depozitoUcret ₺
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="bi bi-info-circle text-primary"></i>
+                                <strong>Açıklama :</strong> @ViewBag.Arac.aciklama
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="btn btn-success col-12">
+                        <a href="#" class="text-light text-decoration-none"><h5>KİRALA</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-3 g-3 py-5">
+        <div class="col gap-3 d-flex">
+            <h1><i class="bi bi-shield-fill-check text-success"></i></h1>
+            <div class="col">
+                <div class="col-12">9 Taksit Seçeneği</div>
+                <div class="col-12">%100 Kesintisiz iade ve iptal imkanı</div>
+            </div>
+        </div>
+        <div class="col d-flex gap-3 justify-content-center">
+            <h1><i class="bi bi-headset text-warning"></i></h1>
+            <div class="col">
+                <div class="col-12">YARDIM İSTER MİSİNİZ?</div>
+                <div class="col-12">(0546) 123 78 45</div>
+            </div>
+        </div>
+        <div class="col d-flex gap-3 justify-content-center">
+            <h1><i class="bi bi-check-circle-fill text-primary"></i></h1>
+            <div class="col">
+                <div class="col-12">Rezervasyon iptali mi?</div>
+                <div class="col-12">Ücretsiz İptal</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="pb-2 border-bottom">SIK SORULAN SORULAR (SSS)</h2>
+    <div class="accordion my-4" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne"
+                        aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                    Rent A Car, en ucuz araç kiralama seçeneklerini nasıl sunuyor?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne"
+                 class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    Türkiye’nin seyahat sitesi Rent A Car, araç kiralamak istediğiniz destinasyona göre farklı araç kiralama firmalarının tekliflerini karşılaştırır ve listeler. Listelenen araçları; fiyata göre artan ya da azalan, firmaya göre ya da tavsiye edilene göre sıralamayı tercih edebilirsiniz. Kiralama şirketi, vites tipi, yakıt tipi ve araç markası gibi filtrelerle tercihlerinize göre sıralama yaparak kendinize en uygun aracı bulabilirsiniz.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                    Rent A Car, araç kiralama işlemlerimin güvenliğini nasıl sağlıyor?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo"
+                 class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Rent A Car üzerinden yaptığınız işlemlerin hepsi, SSL sertifikası ile güvence altındadır. Ayrıca araç kiralarken ödeme adımındaki işlemleriniz için 3D Security güvencesi de sunulur.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                    Rent A Car’da hangi marka araçları kiralayabilirim?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree"
+                 class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Rent A Car'da Audi, Mercedes Benz, Jeep, Citroen, Dacia, Fiat, Ford, Hyundai, Opel, Nissan, Renault, Peugeot, Volkswagen ve Seat gibi markaların araçlarını kiralayabilirsiniz.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                    Rent A Car’da nasıl araç kiralayabilirim?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour"
+                 class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Rent A Car'dan araç kiralamak için web sitemizi kullanabilirsiniz. Kiralık aracınızı almak istediğiniz noktayı, alış ve bırakış tarihini girdikten sonra farklı araç kiralama firmalarının tekliflerini karşılaştırabilir, size uyan aracı seçerek güvenle kiralayabilirsiniz.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

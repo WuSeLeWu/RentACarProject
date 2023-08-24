@@ -1,0 +1,311 @@
+2023-08-12 08:47:57.4898||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-12 08:47:57.7350||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-12 08:47:57.7384||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-12 08:47:57.7384||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-12 08:47:57.7384||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-12 08:47:57.7384||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-12 08:47:58.3342||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-12 08:47:58.8979||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 565.3841ms 
+2023-08-12 08:47:58.9552||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-12 08:47:58.9552||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-12 08:47:58.9618||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.5553ms 
+2023-08-12 08:47:59.0263||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.1292ms 
+2023-08-12 08:47:59.0710||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-12 08:47:59.1264||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.4250ms 
+2023-08-12 08:48:19.7778||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/MarkaModel/TumMarkalar - - 
+2023-08-12 08:48:19.7778||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:19.7778||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.MarkaModelController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Arac/TumAraclar - - 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Arac/TumAraclar - - - 204 - - 4.0318ms 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumMarkalar", controller = "MarkaModel"}. Executing controller action with signature System.Object TumMarkalar() on controller RentACar.Api.Controllers.MarkaModelController (RentACar.Api). 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Arac/TumAraclar application/json;+charset=utf-8 - 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/YakitTip/TumYakitTipleri - - 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:19.7887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/YakitTip/TumYakitTipleri - - - 204 - - 1.6081ms 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/YakitTip/TumYakitTipleri application/json;+charset=utf-8 - 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.AracController.TumAraclar (RentACar.Api)' 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - - 204 - - 0.9865ms 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.YakitTipController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumAraclar", controller = "Arac"}. Executing controller action with signature System.Object TumAraclar() on controller RentACar.Api.Controllers.AracController (RentACar.Api). 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumMarkalar", controller = "YakitTip"}. Executing controller action with signature System.Object TumMarkalar() on controller RentACar.Api.Controllers.YakitTipController (RentACar.Api). 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Sube/TumSubeler application/json;+charset=utf-8 - 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api)' 
+2023-08-12 08:48:19.8034||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumSubeler", controller = "Sube"}. Executing controller action with signature System.Object TumSubeler() on controller RentACar.Api.Controllers.SubeController (RentACar.Api). 
+2023-08-12 08:48:20.4584||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-12 08:48:20.4584||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-12 08:48:21.2002||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblYakitTip] AS [t] 
+2023-08-12 08:48:21.2002||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AcikAdres], [t].[Ad], [t].[AktifMi], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[SehirId], [t].[TelNo]
+FROM [tblSube] AS [t] 
+2023-08-12 08:48:21.2002||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Aciklama], [t].[AracDurum], [t].[DepozitoUcret], [t].[Fiyat], [t].[Foto], [t].[KmSinir], [t].[KoltukSayi], [t].[MarkaId], [t].[ModelId], [t].[SubeId], [t].[UretimYil], [t].[VitesTip], [t].[YakitTipId]
+FROM [tblArac] AS [t] 
+2023-08-12 08:48:21.2002||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad], [t].[LogoFoto]
+FROM [tblMarka] AS [t] 
+2023-08-12 08:48:21.2161||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Marka, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:48:21.2161||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Sube, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:48:21.2161||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.YakitTip, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:48:21.2161||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Arac, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.MarkaModelController.TumMarkalar (RentACar.Api) in 1427.1993ms 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.YakitTipController.TumMarkalar (RentACar.Api) in 1415.7808ms 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.MarkaModelController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.YakitTipController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api) in 1419.5468ms 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api)' 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Sube/TumSubeler application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 1424.6820ms 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/YakitTip/TumYakitTipleri application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 1428.3818ms 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/MarkaModel/TumMarkalar - - - 200 - application/json;+charset=utf-8 1453.9691ms 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.AracController.TumAraclar (RentACar.Api) in 1427.8944ms 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.AracController.TumAraclar (RentACar.Api)' 
+2023-08-12 08:48:21.2244||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Arac/TumAraclar application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 1437.9875ms 
+2023-08-12 08:48:42.0428||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 08:48:42.0428||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:42.0428||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 1.0065ms 
+2023-08-12 08:48:42.0428||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 08:48:42.0428||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:48:42.0428||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:48:42.0428||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 08:48:42.0983||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 08:48:42.0983||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:48:42.0983||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 57.5647ms 
+2023-08-12 08:48:42.0983||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:48:42.0983||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 60.6198ms 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 0.8644ms 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 08:53:39.2557||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 3.3308ms 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:53:39.2557||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 5.2310ms 
+2023-08-12 08:53:50.8486||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-12 08:53:51.0815||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-12 08:53:51.0815||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-12 08:53:51.0815||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-12 08:53:51.0815||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-12 08:53:51.0815||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-12 08:53:51.7774||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-12 08:53:51.9776||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 200.6538ms 
+2023-08-12 08:53:52.0227||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-12 08:53:52.0227||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-12 08:53:52.0227||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.4858ms 
+2023-08-12 08:53:52.0485||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8138ms 
+2023-08-12 08:53:52.0952||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-12 08:53:52.1559||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.7367ms 
+2023-08-12 08:56:56.6129||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-12 08:56:56.7705||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-12 08:56:56.7705||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-12 08:56:56.7705||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-12 08:56:56.7705||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-12 08:56:56.7705||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api 
+2023-08-12 08:56:57.1497||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-12 08:56:57.3393||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 190.5626ms 
+2023-08-12 08:56:57.3967||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-12 08:56:57.3967||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-12 08:56:57.3967||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.2133ms 
+2023-08-12 08:56:57.4187||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9057ms 
+2023-08-12 08:56:57.4678||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-12 08:56:57.5248||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.9657ms 
+2023-08-12 08:57:15.8074||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/MarkaModel/TumMarkalar - - 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.MarkaModelController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Arac/TumAraclar - - 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Arac/TumAraclar - - - 204 - - 2.6576ms 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumMarkalar", controller = "MarkaModel"}. Executing controller action with signature System.Object TumMarkalar() on controller RentACar.Api.Controllers.MarkaModelController (RentACar.Api). 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/YakitTip/TumYakitTipleri - - 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/YakitTip/TumYakitTipleri - - - 204 - - 1.0201ms 
+2023-08-12 08:57:15.8159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Arac/TumAraclar application/json;+charset=utf-8 - 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/YakitTip/TumYakitTipleri application/json;+charset=utf-8 - 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.AracController.TumAraclar (RentACar.Api)' 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - - 204 - - 1.0947ms 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.YakitTipController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumMarkalar", controller = "YakitTip"}. Executing controller action with signature System.Object TumMarkalar() on controller RentACar.Api.Controllers.YakitTipController (RentACar.Api). 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumAraclar", controller = "Arac"}. Executing controller action with signature System.Object TumAraclar() on controller RentACar.Api.Controllers.AracController (RentACar.Api). 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Sube/TumSubeler application/json;+charset=utf-8 - 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api)' 
+2023-08-12 08:57:15.8332||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumSubeler", controller = "Sube"}. Executing controller action with signature System.Object TumSubeler() on controller RentACar.Api.Controllers.SubeController (RentACar.Api). 
+2023-08-12 08:57:16.2925||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-12 08:57:16.2925||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-12 08:57:16.7111||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AcikAdres], [t].[Ad], [t].[AktifMi], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[SehirId], [t].[TelNo]
+FROM [tblSube] AS [t] 
+2023-08-12 08:57:16.7111||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Aciklama], [t].[AracDurum], [t].[DepozitoUcret], [t].[Fiyat], [t].[Foto], [t].[KmSinir], [t].[KoltukSayi], [t].[MarkaId], [t].[ModelId], [t].[SubeId], [t].[UretimYil], [t].[VitesTip], [t].[YakitTipId]
+FROM [tblArac] AS [t] 
+2023-08-12 08:57:16.7111||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad], [t].[LogoFoto]
+FROM [tblMarka] AS [t] 
+2023-08-12 08:57:16.7111||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblYakitTip] AS [t] 
+2023-08-12 08:57:16.7274||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Marka, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:57:16.7274||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.YakitTip, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:57:16.7274||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Arac, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:57:16.7274||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Sube, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.YakitTipController.TumMarkalar (RentACar.Api) in 897.5746ms 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.MarkaModelController.TumMarkalar (RentACar.Api) in 907.0758ms 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.YakitTipController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.MarkaModelController.TumMarkalar (RentACar.Api)' 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api) in 900.1138ms 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api)' 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/YakitTip/TumYakitTipleri application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 909.5161ms 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/MarkaModel/TumMarkalar - - - 200 - application/json;+charset=utf-8 935.4030ms 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Sube/TumSubeler application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 905.8493ms 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.AracController.TumAraclar (RentACar.Api) in 907.8119ms 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.AracController.TumAraclar (RentACar.Api)' 
+2023-08-12 08:57:16.7361||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Arac/TumAraclar application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 916.6572ms 
+2023-08-12 08:57:33.8431||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 08:57:33.8431||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:33.8431||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 1.1541ms 
+2023-08-12 08:57:33.8459||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 08:57:33.8459||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:57:33.8459||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:57:33.8459||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 08:57:33.8981||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 08:57:33.8981||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:57:33.8981||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 58.0587ms 
+2023-08-12 08:57:33.8981||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:57:33.8981||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 60.8133ms 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 1.9649ms 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 08:58:36.4261||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 2.697ms 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:58:36.4261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 4.3935ms 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 0.6768ms 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 08:58:44.8463||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 2.2806ms 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 08:58:44.8463||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 3.4640ms 
+2023-08-12 09:01:52.7770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 09:01:52.7770||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:01:52.7770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 1.1386ms 
+2023-08-12 09:01:52.7770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 09:01:52.7770||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:01:52.7770||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:01:52.7770||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 09:01:52.7879||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 09:01:52.7879||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 09:01:52.7879||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 7.4445ms 
+2023-08-12 09:01:52.7879||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:01:52.7879||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 8.8063ms 
+2023-08-12 09:01:59.7651||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-12 09:01:59.7770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 12.0365ms 
+2023-08-12 09:01:59.8181||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-12 09:01:59.8181||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-12 09:01:59.8181||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.6119ms 
+2023-08-12 09:01:59.8439||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8694ms 
+2023-08-12 09:01:59.9234||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-12 09:01:59.9314||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/favicon-32x32.png - - 
+2023-08-12 09:01:59.9314||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.8215ms 
+2023-08-12 09:01:59.9314||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2023-08-12 09:01:59.9314||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/favicon-32x32.png - - - 200 628 image/png 6.6898ms 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 2.6326ms 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 09:02:00.0668||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 09:02:00.0668||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 09:02:00.0809||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 4.0188ms 
+2023-08-12 09:02:00.0809||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:02:00.0809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 8.1606ms 
+2023-08-12 09:03:59.0314||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-12 09:03:59.0447||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 13.2967ms 
+2023-08-12 09:03:59.0754||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-12 09:03:59.0754||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-12 09:03:59.0754||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.2627ms 
+2023-08-12 09:03:59.1135||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.1466ms 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Rol/TumRoller - - - 204 - - 2.6780ms 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 09:03:59.2220||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 09:03:59.2220||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 09:03:59.2378||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 5.3687ms 
+2023-08-12 09:03:59.2378||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:03:59.2378||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 9.9936ms 
+2023-08-12 09:03:59.2942||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-12 09:03:59.2942||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.2825ms 
+2023-08-12 09:04:01.3912||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - 
+2023-08-12 09:04:01.3912||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:04:01.3912||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:04:01.3912||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumRoller", controller = "Rol"}. Executing controller action with signature System.Object TumRoller() on controller RentACar.Api.Controllers.RolController (RentACar.Api). 
+2023-08-12 09:04:01.3930||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Ad]
+FROM [tblRol] AS [t] 
+2023-08-12 09:04:01.3930||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Rol, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 09:04:01.3930||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api) in 1.3954ms 
+2023-08-12 09:04:01.3930||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.RolController.TumRoller (RentACar.Api)' 
+2023-08-12 09:04:01.3930||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Rol/TumRoller application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 2.7848ms 
+2023-08-12 09:04:12.4177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - 
+2023-08-12 09:04:12.4177||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:04:12.4177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - - 204 - - 0.5894ms 
+2023-08-12 09:04:12.4177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Sube/TumSubeler application/json;+charset=utf-8 - 
+2023-08-12 09:04:12.4177||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:04:12.4177||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api)' 
+2023-08-12 09:04:12.4177||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TumSubeler", controller = "Sube"}. Executing controller action with signature System.Object TumSubeler() on controller RentACar.Api.Controllers.SubeController (RentACar.Api). 
+2023-08-12 09:04:12.4247||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AcikAdres], [t].[Ad], [t].[AktifMi], [t].[KayitTarih], [t].[MailAdress], [t].[Parola], [t].[RolId], [t].[SehirId], [t].[TelNo]
+FROM [tblSube] AS [t] 
+2023-08-12 09:04:12.4247||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Sube, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-12 09:04:12.4247||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api) in 3.3547ms 
+2023-08-12 09:04:12.4247||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.SubeController.TumSubeler (RentACar.Api)' 
+2023-08-12 09:04:12.4247||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Sube/TumSubeler application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 6.2736ms 
+2023-08-12 09:13:33.5345||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - 
+2023-08-12 09:13:33.5345||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-12 09:13:33.5345||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7131/api/Sube/TumSubeler - - - 204 - - 3.7424ms 

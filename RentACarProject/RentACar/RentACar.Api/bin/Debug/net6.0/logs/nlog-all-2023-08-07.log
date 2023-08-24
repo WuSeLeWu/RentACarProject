@@ -1,0 +1,42 @@
+2023-08-07 14:36:37.5704||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7131 
+2023-08-07 14:36:37.6115||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5146 
+2023-08-07 14:36:37.6115||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 14:36:37.6115||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 14:36:37.6115||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Masaüstü\RentACar\RentACar\RentACar.Api\ 
+2023-08-07 14:36:38.2967||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - - 
+2023-08-07 14:36:38.5957||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - - - 200 - text/html;charset=utf-8 301.5476ms 
+2023-08-07 14:36:38.6112||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:36:38.6112||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.3421ms 
+2023-08-07 14:36:38.6403||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - - 
+2023-08-07 14:36:38.6968||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.4734ms 
+2023-08-07 14:36:38.7536||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - 
+2023-08-07 14:36:38.7774||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/swagger/favicon-32x32.png - - 
+2023-08-07 14:36:38.7872||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2023-08-07 14:36:38.7872||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/favicon-32x32.png - - - 200 628 image/png 10.0056ms 
+2023-08-07 14:36:38.8302||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.6656ms 
+2023-08-07 14:36:45.5324||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Arac/SubeyeAitAraclariGetir/1 - - 
+2023-08-07 14:36:45.5324||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.AracController.SubeyeAitAraclariGetir (RentACar.Api)' 
+2023-08-07 14:36:45.5575||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SubeyeAitAraclariGetir", controller = "Arac"}. Executing controller action with signature System.Object SubeyeAitAraclariGetir(Int32) on controller RentACar.Api.Controllers.AracController (RentACar.Api). 
+2023-08-07 14:36:46.6773||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'DepozitoUcret' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-07 14:36:46.6773||WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Fiyat' on entity type 'Arac'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2023-08-07 14:36:48.1928||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (102ms) [Parameters=[@__sid_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Aciklama], [t].[AracDurum], [t].[DepozitoUcret], [t].[Fiyat], [t].[Foto], [t].[KmSinir], [t].[KoltukSayi], [t].[ModelId], [t].[SubeId], [t].[UretimYil], [t].[VitesTip], [t].[YakitTipId]
+FROM [tblArac] AS [t]
+INNER JOIN [tblSube] AS [t0] ON [t].[SubeId] = [t0].[Id]
+WHERE [t0].[Id] = @__sid_0 
+2023-08-07 14:36:48.2278||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Arac, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-07 14:36:48.2425||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.AracController.SubeyeAitAraclariGetir (RentACar.Api) in 2680.8324ms 
+2023-08-07 14:36:48.2425||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.AracController.SubeyeAitAraclariGetir (RentACar.Api)' 
+2023-08-07 14:36:48.2552||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Arac/SubeyeAitAraclariGetir/1 - - - 200 - application/json;+charset=utf-8 2722.8489ms 
+2023-08-07 14:37:03.8953||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7131/api/Arac/SubeyeAitAraclariGetir/2 - - 
+2023-08-07 14:37:03.8953||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RentACar.Api.Controllers.AracController.SubeyeAitAraclariGetir (RentACar.Api)' 
+2023-08-07 14:37:03.8953||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SubeyeAitAraclariGetir", controller = "Arac"}. Executing controller action with signature System.Object SubeyeAitAraclariGetir(Int32) on controller RentACar.Api.Controllers.AracController (RentACar.Api). 
+2023-08-07 14:37:03.9045||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__sid_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Aciklama], [t].[AracDurum], [t].[DepozitoUcret], [t].[Fiyat], [t].[Foto], [t].[KmSinir], [t].[KoltukSayi], [t].[ModelId], [t].[SubeId], [t].[UretimYil], [t].[VitesTip], [t].[YakitTipId]
+FROM [tblArac] AS [t]
+INNER JOIN [tblSube] AS [t0] ON [t].[SubeId] = [t0].[Id]
+WHERE [t0].[Id] = @__sid_0 
+2023-08-07 14:37:03.9045||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RentACar.Model.Arac, RentACar.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-07 14:37:03.9045||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RentACar.Api.Controllers.AracController.SubeyeAitAraclariGetir (RentACar.Api) in 7.1455ms 
+2023-08-07 14:37:03.9045||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RentACar.Api.Controllers.AracController.SubeyeAitAraclariGetir (RentACar.Api)' 
+2023-08-07 14:37:03.9045||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7131/api/Arac/SubeyeAitAraclariGetir/2 - - - 200 - application/json;+charset=utf-8 10.2592ms 

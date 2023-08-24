@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "İletişim";
+}
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<section id="contact" class="contact my-4 position-relative">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+        <div class="section-title">
+            <h2>İLETİŞİM</h2>
+        </div>
+
+        <div>
+            <iframe style="border: 0; width: 100%; height: 270px"
+                    src="https://www.google.com/maps/d/embed?mid=1yxEevpkP6uSWO6LnmV02Hnt_GBY&hl=tr&ehbc=2E312F"
+                    frameborder="0"
+                    allowfullscreen="">
+            </iframe>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="info">
+                    <div class="address">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Konum :</h4>
+                        <p>Çorum Saat Kulesi</p>
+                    </div>
+
+                    <div class="email">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Email :</h4>
+                        <p>adres@example.com</p>
+                    </div>
+
+                    <div class="phone">
+                        <i class="bi bi-phone"></i>
+                        <h4>Telefon Numaramız :</h4>
+                        <p>0(546) 123 45 67</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0">
+                <form action="#"
+                      method="post"
+                      role="form"
+                      class="php-email-form">
+                    <div id="liveAlertPlaceholder">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text"
+                                   name="adSoyad"
+                                   class="form-control"
+                                   id="adSoyad"
+                                   placeholder="Ad Soyad"
+                                   required="" />
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email"
+                                   class="form-control"
+                                   name="email"
+                                   id="email"
+                                   placeholder="Mail Adresiniz"
+                                   required="" />
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text"
+                               class="form-control"
+                               name="konuBaslik"
+                               id="konuBaslik"
+                               placeholder="Konu Başlığı"
+                               required="" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text"
+                               class="form-control"
+                               name="tel"
+                               id="telNo"
+                               placeholder="Telefon Numaranız"
+                               required="" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control"
+                                  name="mesaj"
+                                  id="mesaj"
+                                  rows="5"
+                                  placeholder="Mesajınızı Yazınız..."
+                                  required=""></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button id="liveAlertBtn" class="btn btn-primary mt-4" type="submit" onclick="IletisimKaydet()">Mesajınızı Gönderin</button>
+                    </div>
+
+                    <script>
+                        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+                        const appendAlert = (message, type) => {
+                            const wrapper = document.createElement('div')
+                            wrapper.innerHTML = [
+                                `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                                `   <div>${message}</div>`,
+                                '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                                '</div>'
+                            ].join('')
+
+                            alertPlaceholder.append(wrapper)
+                        }
+
+                        const alertTrigger = document.getElementById('liveAlertBtn')
+                        if (alertTrigger) {
+                            alertTrigger.addEventListener('click', () => {
+                                appendAlert('Mesajınız Gönderildi! En kısa Zamanda Dönüş Yapacağız', 'success')
+                            })
+                        }
+                    </script>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/js/admin/iletisim.js"></script>
+

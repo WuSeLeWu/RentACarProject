@@ -1,0 +1,156 @@
+﻿
+<nav class="navbar text-light mb-3" style="background-color:#000000;">
+    <div class="container-fluid">
+        <h2><a class="navbar-brand text-light">Rent A Car Araçları</a></h2>
+        <form class="d-flex" role="search">
+            <button type="button"
+                    class="btn btn-light"
+                    data-bs-toggle="modal"
+                    onclick="YeniArac()"
+                    data-bs-target="#staticBackdrop">
+                Yeni Araç Ekle
+            </button>
+        </form>
+    </div>
+</nav>
+
+
+
+<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3" id="divAraclar">
+</div>
+@*Araç ekleme kısmı*@
+
+
+
+<!-- Modal -->
+<div class="modal fade"
+     id="staticBackdrop"
+     data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     tabindex="-1"
+     aria-labelledby="staticBackdropLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Araç Bilgileri</h1>
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="row g-3 needs-validation" id="aracEkleForm" novalidate>
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="ddlMarka">Marka Seçiniz :</label>
+                        <select class="form-select" id="ddlMarka">
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="ddlModel">Model Seçiniz :</label>
+                        <select class="form-select" id="ddlModel">
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="form-label" for="ddlYakitTipAdlari">Yakıt Tipini Seçiniz :</label>
+                        <select class="form-select" id="ddlYakitTipAdlari">
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Vites Tipini Seçiniz :</label>
+                        <select class="form-select" id="ddlVitesTip" required>
+                            <option selected value="true">Manuel</option>
+                            <option value="false">Otomatik</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Araç Durumu Seçiniz :</label>
+                        <select class="form-select" id="ddlAracDurum" required>
+                            <option selected value="true">Aktif</option>
+                            <option value="false">Pasif</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="aracFoto" class="form-label">Araç Durumu Seçiniz :</label>
+                        <input type="file"
+                               class="form-control"
+                               id="aracFoto" accept="AracFotolari/*" />
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <label for="ddlSube" class="form-label">Şube Adını Seçiniz :</label>
+                        <select class="form-select" id="ddlSube" required>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom05" class="form-label">Km Sınırını Giriniz :</label>
+                        <input type="text"
+                               class="form-control"
+                               id="validationCustom05"
+                               required />
+                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom06" class="form-label">Depozito Ücretini Giriniz :</label>
+                        <input type="text"
+                               class="form-control"
+                               id="validationCustom06"
+                               required />
+                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom07" class="form-label">Koltuk Sayısını Giriniz :</label>
+                        <input type="text"
+                               class="form-control"
+                               id="validationCustom07"
+                               required />
+                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom08" class="form-label">Fiyatını Giriniz :</label>
+                        <input type="text"
+                               class="form-control"
+                               id="validationCustom08"
+                               required />
+                        <div class="invalid-feedback">Bu alan boş geçilemez.</div>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="form-label">Açıklama Yazınız :</label>
+                        <textarea class="form-control" id="ddlAciklama"></textarea>
+                    </div>
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Vazgeç
+                    </button>
+                    <button class="btn btn-primary" type="submit" onclick="AracKaydet()">Kaydet</button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (() => {
+        "use strict";
+
+        const forms = document.querySelectorAll(".needs-validation");
+        Array.from(forms).forEach((form) => {
+            form.addEventListener(
+                "submit",
+                (event) => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+
+                    form.classList.add("was-validated");
+                },
+                false
+            );
+        });
+    })();
+</script>
+
+<script src="~/js/admin/arac.js" asp-append-version="true"></script>
