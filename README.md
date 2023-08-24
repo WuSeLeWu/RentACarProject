@@ -7,4 +7,8 @@ AHL Holding Software Course Car Rental Project
 
 ![Website Car Page](https://github.com/WuSeLeWu/RentACarProject/blob/main/RentACarProject/RentACar/RentACar.Web/wwwroot/img/carpage.png)
 
+![Website Admin Page](https://github.com/WuSeLeWu/RentACarProject/blob/main/RentACarProject/RentACar/RentACar.Web/wwwroot/img/adminpage.png)
+
+
+
 
